@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Stnld68.github.io/rsschool-cv/cv
