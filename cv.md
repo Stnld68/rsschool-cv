@@ -12,3 +12,12 @@
 ### 3. Diligent and organized
 ### 4. Accountable
 ### 5. Honest
+# Skills
+### <li> CSS</li>
+### <li> HTML</li>
+### <li> Git</li>
+# Work experience 
+# Education
+### <a href="https://rs.school/"> RS School  (Present days) </a>
+# English level
+### <b>A2</b>
