@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+}
+
+.hr1 {
+    width: 30%;
+    padding-top:30px;
+    border-bottom: 3px solid black;
+    
+}
+.hr1 p {
+    border-bottom: 3px solid black;
+    width:120%;
+    
+}
+
+hr {
+    color: black;
+}
+
+
+
+/* Box */
+
+.boxitem {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+   
+}
+
+.box_item1 {
+    width: 30%;
+    background-color: rgb(21, 49, 36);
+}
+
+
+.box_item1 img {
+    border-radius: 50%;
+}
+
+.box_item2 {
+    width: 70%;
+    background-color: rgb(146, 146, 146);
+}
+.box_item2 p {
+    text-align: center;
+
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_item2 h1 {
+    padding-top:30px;
+
+}
+.box_item1 ul {
+    padding-top: 20px;
+}
+.box_item1 h2 {
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.box_item2 h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box_item2 h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box_item1 p {
+    margin: 30px 0 30px 0;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+/* Skills */
+
+.skills {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skills p {
+    padding-bottom: 10x;
+    padding-top: 20px;
+}
+
+.skills1 {
+    margin-left: -220px;
+    padding-top: 20px;
+}
+
+/* About me */
+ ul {
+    list-style-type: none;
+}
+.aboutme {
+    padding-top: 50px;
+
+}
+ .englishlvl {
+     padding-top: 40px;
+ } 
+ .sample {
+     padding-top: 100px;
+     
+ }
+ .education {
+     padding-top: 20px;
+ }
+     
+
+
+/* Footer*/
+
+
+.footer {
+    
+    border: 1px black;
+ }
+.footer p {
+         font-size: 23px;
+         font-family: Georgia, 'Times New Roman', Times, serif;   
+         color: rgb(12, 41, 32);
+        }
+
+        
+/* Button */
+
+
+.button {
+    background-color:#1c4737;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 90px;
+    height: 20px;
+    transition: background .1s easy;
+    margin-bottom: 100px;
+}
+
+.button:hover {
+    background: blue;
+    color: black;
+}
