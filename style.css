@@ -28,7 +28,7 @@ hr {
 
 .boxitem {
     width: 100%;
-    max-width: 1400px;
+   
     display: flex;
    
 }
@@ -45,7 +45,7 @@ hr {
 
 .box_item2 {
     width: 70%;
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(148, 159, 170);
 }
 .box_item2 p {
     text-align: center;
@@ -92,6 +92,7 @@ hr {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 40px;
 }
 
 .skills p {
@@ -116,11 +117,11 @@ hr {
      padding-top: 40px;
  } 
  .sample {
-     padding-top: 100px;
+     padding-top: 90px;
      
  }
  .education {
-     padding-top: 20px;
+     padding-bottom: 100px;
  }
      
 
@@ -129,7 +130,10 @@ hr {
 
 
 .footer {
-    
+     box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
     border: 1px black;
  }
 .footer p {
@@ -138,9 +142,15 @@ hr {
          color: rgb(12, 41, 32);
         }
 
+        .footer img {
+            width: 120px;
+            margin-bottom: 100px;
+        }
+
+           
+
         
 /* Button */
-
 
 .button {
     background-color:#1c4737;
@@ -154,12 +164,14 @@ hr {
     margin: 4px 2px;
     cursor: pointer;
     width: 90px;
-    height: 20px;
+    height: 10px;
     transition: background .1s easy;
     margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .button:hover {
     background: blue;
     color: black;
 }
+
