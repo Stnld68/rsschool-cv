@@ -129,13 +129,16 @@ hr {
 
 
 .footer {
-    border-top: 1px solid black;
+    
+    border: 1px black;
  }
- .footer p {
+.footer p {
          font-size: 23px;
          font-family: Georgia, 'Times New Roman', Times, serif;   
          color: rgb(12, 41, 32);
         }
+
+        
 /* Button */
 
 
